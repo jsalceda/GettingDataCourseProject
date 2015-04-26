@@ -26,12 +26,18 @@ You should create one R script called run_analysis.R that does the following:
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-### Steps
+### Files in this repository
+- README.md: This file
+- CodeBook.md: Information about UCI HAR raw data and the set of transformations performed to clean up the data
+- GettingFiles.R: R script to download and uncompress UCI HAR files
+- run_analysis.R: R script to transform UCI HAR data in a tidy data set as described above
 
-#### 1. Download Files from Sources and Uncompress Data Files
-Execute GettingFiles.R script to:
-- Setting Working Directory to "~/Coursera/Getting and Cleaning Data/PA"
-- Download ZIP File to Working Directory
-- Unzip Dataset File to Data Directory
+### Steps to create the tidy data set
+1. Download files "GettingFiles.R" and "run_analysis.R" files in working directory
+2. Open RStudio application
+3. Set working directory
+4. Execute "GettingFiles.R" script to download UCI HAR zip file and unzip Dataset to working directory
+5. Execute "run_analysis.R" script to get "HAR_average_by_act_sub.txt" containing tidy data set from UCI HAR data with the average of each variable for each activity and each subject.
 
-#### 2. 
+
+
