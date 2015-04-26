@@ -1,5 +1,8 @@
-## Set working Directory
-setwd("~/Coursera/Getting and Cleaning Data/PA")
+## Getting and Cleaning Data Course Project
+## Filename: GettingFiles.R
+## Author: jesus.salceda@gmail.com
+## Date: April 2015
+## Comment: Script to download and uncompress HAR Dataset in working directory
 
 ## Set File URL to download, Local Dataset ZIP Filename, Local Data Directory Name
 URLFilename <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
